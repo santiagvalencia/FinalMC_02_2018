@@ -16,6 +16,15 @@ B=(np.random.random((N,1))*10.0)-3.0
 print (A)
 print (B)
 
+cond = True
+
+for i in range(A.size):
+    if A[i] >= B[i]:
+        cond = False
+        print("A NO es mayor que B")
+        break
+if cond:
+    print("A es mayor que B")
 
 
 
