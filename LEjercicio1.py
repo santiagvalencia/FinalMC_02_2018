@@ -13,8 +13,8 @@ import numpy as np
 N=10
 A=(np.random.random((N,1))*10.0)-5.0
 B=(np.random.random((N,1))*10.0)-3.0
-print A, B
-print A, B
+print (A)
+print (B)
 
 
 
